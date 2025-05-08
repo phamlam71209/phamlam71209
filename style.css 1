@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    font-size: 24px;
+    font-weight: bold;
+    color: gold;
+}
+
+.bet-section {
+    text-align: center;
+    margin: 20px;
+}
+
+.result-display h2 {
+    font-size: 60px;
+    color: white;
+    background: gold;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.choices {
+    margin: 20px;
+}
+
+.choice {
+    padding: 15px 30px;
+    margin: 10px;
+    background-color: #ff9900;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.choice:hover {
+    transform: scale(1.1);
+}
+
+.bet-button {
+    background-color: #ff9900;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.bet-button:hover {
+    background-color: #cc7a00;
+}
+
+.chat-section {
+    background: #333;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.chat-box {
+    height: 200px;
+    overflow-y: scroll;
+    background: #1c1c1c;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#chatInput {
+    width: calc(100% - 100px);
+    padding: 10px;
+    margin-right: 5px;
+}
+
+#sendMessage {
+    padding: 10px 20px;
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
