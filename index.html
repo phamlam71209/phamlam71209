@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Tài Xỉu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <header>
+            <h1>Tài Xỉu Online</h1>
+        </header>
+        <main>
+            <div class="bet-section">
+                <div class="result-display">
+                    <h2 id="result">32</h2>
+                </div>
+                <div class="choices">
+                    <button class="choice" id="tai">Tài</button>
+                    <button class="choice" id="xiu">Xỉu</button>
+                </div>
+                <button class="bet-button" id="placeBet">Đặt Cược</button>
+            </div>
+            <div class="chat-section">
+                <h3>Chat</h3>
+                <div id="chatBox" class="chat-box"></div>
+                <input type="text" id="chatInput" placeholder="Nhập nội dung chat">
+                <button id="sendMessage">Gửi</button>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
